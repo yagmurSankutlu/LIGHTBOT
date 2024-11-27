@@ -19,4 +19,4 @@ jobs:
           python-version: '3.x'
 
       - name: Run Python script
-        run: python3 -c "exec(open('version1.py').read())"
+        run: python3 -c "exec(open('lighbotkernel.py').read())"
